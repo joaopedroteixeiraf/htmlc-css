@@ -183,7 +183,7 @@ aside > ul {
 }
 
 footer {
-    background-color:var(--cor05);
-    color: white;
+   background-color:var(--cor05);
+    color: white ;
     text-align: center;
 }
