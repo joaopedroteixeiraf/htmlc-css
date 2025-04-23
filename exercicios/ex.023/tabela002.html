@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        tr, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size:20px;
+            background-color: rgba(178, 178, 178, 0.405) ;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgba(30, 30, 30, 0.605);
+            color: white
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: rgb(91, 148, 110);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>População daas Unidades Federativass</caption>
+        <thead>
+            <tr>
+               <th>Estado</th>
+               <th style="width: 80px;">População</th> 
+               <th>País comparável <br> (habitantes)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>São Paulo</th>
+                <th>45 973 194</th>
+                <th>Iraque <br> (46 042 015)</th>
+            </tr>
+
+            <tr>
+                <th>Minas Gerais</th>
+                <th>21 322 691</th>
+                <th>Zâmbia <br> (21 314 956)</th>
+            </tr>
+
+            <tr>
+                <th>Rio de Janeiro</th>
+                <th>17 219 679</th>
+                <th>Camboja <br> (17 638 801)</th>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <th>84 515 564</th>
+                <th> ______</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
